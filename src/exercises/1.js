@@ -1,4 +1,4 @@
 // TODO prepare the exercise
-const solution1 = ['Angel', 'Alfonso', 'Facundo', 'Eudald'];
+const result1 = ['Angel', 'Alfonso', 'Facundo', 'Eudald'];
 
-export default solution1;
+export default result1;

@@ -1,4 +1,4 @@
 // TODO prepare the exercise
-const solution2 = 6;
+const result2 = 6;
 
-export default solution2;
+export default result2;

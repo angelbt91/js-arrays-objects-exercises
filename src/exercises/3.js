@@ -1,4 +1,4 @@
 // TODO prepare the exercise
-const solution3 = { learning: 'full stack'};
+const result3 = { learning: 'full stack'};
 
-export default solution3;
+export default result3;
