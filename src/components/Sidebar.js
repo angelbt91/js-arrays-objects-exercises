@@ -1,5 +1,5 @@
-import {exercisesList} from "../exercises-list";
-import {Link} from "react-router-dom";
+import {exercisesList} from '../exercises-list';
+import {Link} from 'react-router-dom';
 
 const Sidebar = () => {
     const arrayExercises = exercisesList.filter(exercise => exercise.type === 'array').sort((a, b) => a.id - b.id);
@@ -8,7 +8,7 @@ const Sidebar = () => {
     return (
         <>
             <h5>Arrays</h5>
-            <ul className="pl-3" style={{listStyleType: 'none'}}>
+            <ul className='pl-3' style={{listStyleType: 'none'}}>
                 {arrayExercises && arrayExercises.map(exercise => {
                     return <Link to={`/${exercise.id}`}>
                         <li>{exercise.id}. {exercise.name}</li>
@@ -16,7 +16,7 @@ const Sidebar = () => {
                 })}
             </ul>
             <h5>Objects</h5>
-            <ul className="pl-3" style={{listStyleType: 'none'}}>
+            <ul className='pl-3' style={{listStyleType: 'none'}}>
                 {objectExercises && objectExercises.map(exercise => {
                     return <Link to={`/${exercise.id}`}>
                         <li>{exercise.id}. {exercise.name}</li>
@@ -24,7 +24,7 @@ const Sidebar = () => {
                 })}
             </ul>
         </>
-    )
+    );
 }
 
 export default Sidebar;

@@ -1,6 +1,6 @@
-import result1 from "./exercises/1";
-import result2 from "./exercises/2";
-import result3 from "./exercises/3";
+import result1 from './exercises/1';
+import result2 from './exercises/2';
+import result3 from './exercises/3';
 
 export const exercisesList = [{
     id: 1,
