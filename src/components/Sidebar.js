@@ -8,7 +8,7 @@ const Sidebar = () => {
     return (
         <>
             <h5>Arrays</h5>
-            <ul>
+            <ul className="pl-3" style={{listStyleType: 'none'}}>
                 {arrayExercises && arrayExercises.map(exercise => {
                     return <Link to={`/${exercise.id}`}>
                         <li>{exercise.id}. {exercise.name}</li>
@@ -16,7 +16,7 @@ const Sidebar = () => {
                 })}
             </ul>
             <h5>Objects</h5>
-            <ul>
+            <ul className="pl-3" style={{listStyleType: 'none'}}>
                 {objectExercises && objectExercises.map(exercise => {
                     return <Link to={`/${exercise.id}`}>
                         <li>{exercise.id}. {exercise.name}</li>
