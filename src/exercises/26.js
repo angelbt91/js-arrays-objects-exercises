@@ -1,5 +1,5 @@
-const luisData = {
-    name: 'Luis',
+const marioData = {
+    name: 'Mario',
     role: 'full stack',
     hobbies: ['music', 'programming'],
     favoriteFoodByCountry: {
@@ -8,7 +8,7 @@ const luisData = {
     }
 }
 
-// 👀 Add the necessary code below to change luisData's role's value by 'full stack developer'
+// 👀 Add the necessary code below to change marioData's role's value by 'full stack developer'
 // 📝
 
 // 📝
@@ -17,10 +17,10 @@ const exercise26 = {
     id: 26,
     type: 'object',
     name: 'Accessing object data I',
-    description: 'Modify 26.js to change the object\'s data and output the correct value.',
-    hint: 'In arrays we access data using its position. In objects, we can access data based on its property name.',
+    description: 'Modify 26.js to change the object\'s data and output \'full stack developer\' instead of \'full stack\'.',
+    hint: 'In arrays we access data using its position. In objects, we access data based on its property name.',
     solution: {
-        name: 'Luis',
+        name: 'Mario',
         role: 'full stack developer',
         hobbies: ['music', 'programming'],
         favoriteFoodByCountry: {
@@ -28,7 +28,7 @@ const exercise26 = {
             Japan: ['Sushi🍣']
         }
     },
-    result: luisData
+    result: marioData
 }
 
 export default exercise26;

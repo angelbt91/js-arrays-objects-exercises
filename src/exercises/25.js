@@ -1,5 +1,5 @@
 // 👀 Edit below the variable 'result' to make it contain an object with two properties:
-// 👀 - Property named 'name', value is 'Luis'
+// 👀 - Property named 'name', value is 'Clàudia'
 // 👀 - Property named 'role', value is 'full stack'
 // 👀 - Property named 'hobbies', value is an array containing two elements: 'music' and 'programming'
 // 👀 - Property named 'favoriteFoodByCountry', value is an object as described with two properties as described here:
@@ -16,7 +16,7 @@ const exercise25 = {
     description: 'Modify 25.js to output an object that contains the properties specified there.',
     hint: 'You can even copy-paste the solution if you look carefully into 25.js.',
     solution: {
-        name: 'Luis',
+        name: 'Clàudia',
         role: 'full stack',
         hobbies: ['music', 'programming'],
         favoriteFoodByCountry: {
