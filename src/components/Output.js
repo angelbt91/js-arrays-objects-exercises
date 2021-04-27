@@ -5,7 +5,7 @@ const Output = ({output}) => {
             fontSize: '18px',
             backgroundColor: 'darkslategray',
             color: 'white',
-            borderRadius: '20px',
+            borderRadius: '8px',
             padding: '20px 25px'
         }}>
             {JSON.stringify(output)}
