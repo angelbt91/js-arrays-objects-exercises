@@ -12,7 +12,7 @@ const App = () => {
                     <Navbar.Brand href='/'>JS Arrays and Objects exercises</Navbar.Brand>
                 </Navbar>
                 <Row>
-                    <Col xs={2} className='m-4 pt-4'>
+                    <Col xs={3} className='m-4 pt-4'>
                         <Sidebar/>
                     </Col>
                     <Col className='m-4 pt-4'>
