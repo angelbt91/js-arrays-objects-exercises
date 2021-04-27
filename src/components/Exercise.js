@@ -1,5 +1,5 @@
 import {useParams} from 'react-router-dom';
-import {exercisesList} from '../exercises-list';
+import exercisesList from '../exercises-list';
 import Output from './Output';
 import Hint from './Hint';
 

@@ -1,4 +1,4 @@
-import {exercisesList} from '../exercises-list';
+import exercisesList from '../exercises-list';
 import {Link} from 'react-router-dom';
 
 const Sidebar = () => {
@@ -11,7 +11,7 @@ const Sidebar = () => {
             <ul className='pl-3' style={{listStyleType: 'none'}}>
                 {arrayExercises && arrayExercises.map(exercise => {
                     return <Link to={`/${exercise.id}`}>
-                        <li>{exercise.id}. {exercise.name}</li>
+                        <li className='mt-1'>{exercise.id}. {exercise.name} {exercise.solved && '✅'}</li>
                     </Link>
                 })}
             </ul>
