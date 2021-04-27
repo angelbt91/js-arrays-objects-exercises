@@ -1,7 +1,7 @@
 const studentsArray = ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'];
 const teachersArray = ['Alfonso', 'Eudald', 'Facundo', 'Guillermo', 'Angel'];
 
-// 👀 Add the necessary code below to make result contain a single array with all student names and all teacher names
+// 👀 Edit below the variable 'result' to make it contain a single array with all student names and all teacher names
 // 📝
 const result = 'I want to be an array that contains all of you';
 // 📝
