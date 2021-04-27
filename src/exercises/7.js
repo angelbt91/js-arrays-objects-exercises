@@ -1,4 +1,4 @@
-const studentsArray = ['Angel', 'Alfonso', 'Facundo', 'Eudald'];
+const studentsArray = ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'];
 
 // 👀 Add the necessary code below to add 'Elon' at the end of studentsArray
 // 📝
@@ -13,7 +13,7 @@ const exercise7 = {
     hint: <p>Arrays have their own methods to manipulate their contents. Go <a
         href='https://www.w3schools.com/jsref/jsref_push.asp' target='_blank'
         rel='noreferrer'>push</a> it!</p>,
-    solution: ['Angel', 'Alfonso', 'Facundo', 'Eudald', 'Elon'],
+    solution: ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica', 'Elon'],
     result: studentsArray
 }
 

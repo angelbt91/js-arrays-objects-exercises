@@ -1,4 +1,4 @@
-const studentsArray = ['Angel', 'Alfonso', 'Facundo', 'Eudald'];
+const studentsArray =  ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'];
 
 // 👀 Edit below the variable 'result' to make it contain the length of studentsArray
 // 👀 Remember that an array length is the number of elements that it contains

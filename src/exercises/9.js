@@ -1,4 +1,4 @@
-const studentsArray = ['Elon', 'Angel', 'Alfonso', 'Facundo', 'Eudald'];
+const studentsArray = ['Elon', 'Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'];
 
 // 👀 Add the necessary code below to remove 'Elon' from the beginning of studentsArray
 // 📝
@@ -13,7 +13,7 @@ const exercise9 = {
     hint: <p>Arrays have their own methods to manipulate their contents. Go <a
         href='https://www.w3schools.com/jsref/jsref_shift.asp' target='_blank'
         rel='noreferrer'>shift</a> it!</p>,
-    solution: ['Angel', 'Alfonso', 'Facundo', 'Eudald'],
+    solution: ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'],
     result: studentsArray
 }
 

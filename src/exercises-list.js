@@ -11,9 +11,11 @@ import exercise10 from './exercises/10';
 import exercise11 from './exercises/11';
 import exercise12 from './exercises/12';
 import exercise13 from './exercises/13';
+import exercise14 from "./exercises/14";
+import exercise15 from "./exercises/15";
 
 let exercisesList = [exercise1, exercise2, exercise3, exercise4, exercise5, exercise6, exercise7, exercise8,
-    exercise9, exercise10, exercise11, exercise12, exercise13];
+    exercise9, exercise10, exercise11, exercise12, exercise13, exercise14, exercise15];
 
 // add 'solved' flag
 exercisesList = exercisesList.map(exercise => {

@@ -1,4 +1,4 @@
-const studentsArray = ['Angel', 'Alfonso', 'Facundo', 'Eudald', 'Elon'];
+const studentsArray = ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica', 'Elon'];
 
 // 👀 Add the necessary code below to remove 'Elon' from the end of studentsArray
 // 📝
@@ -13,7 +13,7 @@ const exercise8 = {
     hint: <p>Arrays have their own methods to manipulate their contents. Go <a
         href='https://www.w3schools.com/jsref/jsref_pop.asp' target='_blank'
         rel='noreferrer'>pop</a> it!</p>,
-    solution: ['Angel', 'Alfonso', 'Facundo', 'Eudald'],
+    solution:  ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'],
     result: studentsArray
 }
 

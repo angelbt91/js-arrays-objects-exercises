@@ -1,6 +1,6 @@
-const studentsArray = ['Angel', 'Alfonso', 'Facundo', 'Eudald'];
+const studentsArray = ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'];
 
-// 👀 Add the necessary code below to remove 'Alfonso' from studentsArray and add 'Elon' and 'Jeff' on its place
+// 👀 Add the necessary code below to remove 'Federico' from studentsArray and add 'Elon' and 'Jeff' on its place
 // 📝
 
 // 📝
@@ -13,7 +13,7 @@ const exercise12 = {
     hint: <p>Arrays have their own methods to manipulate their contents. Go <a
         href='https://www.w3schools.com/jsref/jsref_splice.asp' target='_blank'
         rel='noreferrer'>splice</a> it!</p>,
-    solution: ['Angel', 'Elon', 'Jeff', 'Facundo', 'Eudald'],
+    solution: ['Luis', 'Elon', 'Jeff', 'Clàudia', 'Mario', 'Fran', 'Veronica'],
     result: studentsArray
 }
 

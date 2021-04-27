@@ -1,4 +1,4 @@
-const studentsArray = ['Angel', 'Alfonso', 'Facundo', 'Eudald'];
+const studentsArray = ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'];
 
 // 👀 Add the necessary code below to add 'Elon' at the beginning of studentsArray
 // 📝
@@ -13,7 +13,7 @@ const exercise10 = {
     hint: <p>Arrays have their own methods to manipulate their contents. Go <a
         href='https://www.w3schools.com/jsref/jsref_unshift.asp' target='_blank'
         rel='noreferrer'>unshift</a> it!</p>,
-    solution: ['Elon', 'Angel', 'Alfonso', 'Facundo', 'Eudald'],
+    solution: ['Elon', 'Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'],
     result: studentsArray
 }
 

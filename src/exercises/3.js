@@ -1,8 +1,8 @@
-const studentsArray = ['Angel', 'Alfonso', 'Facundo', 'Eudald'];
+const studentsArray = ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'];
 
 // 👀 Edit below the variable 'result' to make it contain the second item of the studentsArray.
 // 📝
-const result = 'I want to contain Alfonso';
+const result = 'I want to contain Federico';
 // 📝
 
 const exercise3 = {
@@ -15,7 +15,7 @@ const exercise3 = {
                                     rel='noreferrer'>Access the Elements of an Array</a> to know
         how to retrieve an array's element dynamically.
     </p>,
-    solution: 'Alfonso',
+    solution: 'Federico',
     result: result
 }
 

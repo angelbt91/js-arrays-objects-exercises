@@ -1,4 +1,4 @@
-const studentsArray = ['Angel', 'Alfonso', 'Facundo', 'Eudald'];
+const studentsArray = ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'];
 
 // 👀 Edit below the variable 'result' to make it contain a string (text) with all the student names with 💖 in between
 // 📝
@@ -13,7 +13,7 @@ const exercise11 = {
     hint: <p>Arrays have their own methods to manipulate their contents. Go <a
         href='https://www.w3schools.com/jsref/jsref_join.asp' target='_blank'
         rel='noreferrer'>join</a> it!</p>,
-    solution: 'Angel💖Alfonso💖Facundo💖Eudald',
+    solution: 'Luis💖Federico💖Clàudia💖Mario💖Fran💖Veronica',
     result: result
 }
 

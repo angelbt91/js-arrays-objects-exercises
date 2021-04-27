@@ -1,7 +1,7 @@
-const studentsArray = ['Angel', 'Alfonso', 'Facundo', 'Eudald'];
-const teachersArray = ['Alfonso', 'Eudald', 'Facundo', 'Angel'];
+const studentsArray = ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica'];
+const teachersArray = ['Alfonso', 'Eudald', 'Facundo', 'Guillermo', 'Angel'];
 
-// 👀 Add the necessary code below to remove 'Alfonso' from studentsArray and add 'Elon' and 'Jeff' on its place
+// 👀 Add the necessary code below to make result contain a single array with all student names and all teacher names
 // 📝
 const result = 'I want to be an array that contains all of you';
 // 📝
@@ -14,7 +14,7 @@ const exercise13 = {
     hint: <p>Arrays have their own methods to manipulate their contents. Go <a
         href='https://www.w3schools.com/jsref/jsref_concat_array.asp' target='_blank'
         rel='noreferrer'>concat</a> it!</p>,
-    solution: ['Angel', 'Alfonso', 'Facundo', 'Eudald', 'Alfonso', 'Eudald', 'Facundo', 'Angel'],
+    solution: ['Luis', 'Federico', 'Clàudia', 'Mario', 'Fran', 'Veronica', 'Alfonso', 'Eudald', 'Facundo', 'Guillermo', 'Angel'],
     result: result
 }
 
