@@ -19,7 +19,7 @@ const Sidebar = () => {
             <ul className='pl-3' style={{listStyleType: 'none'}}>
                 {objectExercises && objectExercises.map(exercise => {
                     return <Link to={`/${exercise.id}`}>
-                        <li>{exercise.id}. {exercise.name}</li>
+                        <li>{exercise.id}. {exercise.name} {exercise.solved && '✅'}</li>
                     </Link>
                 })}
             </ul>
