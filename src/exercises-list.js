@@ -13,9 +13,17 @@ import exercise12 from './exercises/12';
 import exercise13 from './exercises/13';
 import exercise14 from "./exercises/14";
 import exercise15 from "./exercises/15";
+import exercise16 from "./exercises/16";
+import exercise17 from "./exercises/17";
+import exercise18 from "./exercises/18";
+import exercise19 from "./exercises/19";
+import exercise20 from "./exercises/20";
+import exercise21 from "./exercises/21";
+import exercise22 from "./exercises/22";
 
 let exercisesList = [exercise1, exercise2, exercise3, exercise4, exercise5, exercise6, exercise7, exercise8,
-    exercise9, exercise10, exercise11, exercise12, exercise13, exercise14, exercise15];
+    exercise9, exercise10, exercise11, exercise12, exercise13, exercise14, exercise15, exercise16, exercise17,
+    exercise18, exercise19, exercise20, exercise21, exercise22];
 
 // add 'solved' flag
 exercisesList = exercisesList.map(exercise => {
