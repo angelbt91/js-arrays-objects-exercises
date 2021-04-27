@@ -1,5 +1,9 @@
 # JS Arrays and Objects exercises
 
+## Why
+
+This project aims to help on getting used to arrays and objects on a React environment.
+
 ## How to use
 
 First, clone the repo:
