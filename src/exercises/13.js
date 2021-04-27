@@ -9,12 +9,12 @@ const result = 'I want to be an array that contains all of you';
 const exercise13 = {
     id: 13,
     type: 'array',
-    name: 'Remove and add elements at any position in an array',
-    description: 'Modify 12.js to remove the second student and add two new students in their place.',
+    name: 'Concatenate two arrays',
+    description: 'Modify 13.js to concatenate studentsArray and teachersArray into a single array.',
     hint: <p>Arrays have their own methods to manipulate their contents. Go <a
-        href='https://www.w3schools.com/jsref/jsref_splice.asp' target='_blank'
-        rel='noreferrer'>splice</a> it!</p>,
-    solution: ['Angel', 'Elon', 'Jeff', 'Facundo', 'Eudald'],
+        href='https://www.w3schools.com/jsref/jsref_concat_array.asp' target='_blank'
+        rel='noreferrer'>concat</a> it!</p>,
+    solution: ['Angel', 'Alfonso', 'Facundo', 'Eudald', 'Alfonso', 'Eudald', 'Facundo', 'Angel'],
     result: result
 }
 
