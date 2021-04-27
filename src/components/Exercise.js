@@ -12,7 +12,7 @@ const Exercise = () => {
             <h1>{exercise.id.toString()}. {exercise.name}</h1>
             <h3 className='pt-5'>Description</h3>
             <p>{exercise.description}</p>
-            {exercise.hint && <Hint hint={exercise.hint}/>}
+            {exercise.hint && <Hint hint={exercise.hint} id={exercise.id}/>}
             <h3 className='pt-5'>Expected output:</h3>
             <Output output={exercise.solution}/>
             <h3 className='pt-5'>Your output:</h3>
