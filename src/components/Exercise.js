@@ -17,7 +17,7 @@ const Exercise = () => {
             <Output output={exercise.solution}/>
             <h2 className='pt-5'>Your output:</h2>
             <Output output={exercise.result}/>
-            <h1 className='pt-5'>{JSON.stringify(exercise.solution) === JSON.stringify(exercise.result) ? '🥳' : '🤔'}</h1>
+            <h1 className='pt-5'>{exercise.solved ? '🥳' : '🤔'}</h1>
         </>
         :
         <>
