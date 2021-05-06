@@ -9,7 +9,7 @@ const exercise11 = {
     id: 11,
     type: 'array',
     name: 'Join all the elements of an array',
-    description: 'Modify 11.js to join all names in a single string with 💖 between each name.',
+    description: 'Modify 11.js to join all names in a single string (not an array but an string) with 💖 between each name.',
     hint: <p>Arrays have their own methods to manipulate their contents. Go <a
         href='https://www.w3schools.com/jsref/jsref_join.asp' target='_blank'
         rel='noreferrer'>join</a> it!</p>,
